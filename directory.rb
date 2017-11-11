@@ -17,6 +17,13 @@ def input_students
   students
 end
 
+def interactive_menu
+  # 1. print the menu and ask the user what to do
+  # 2. read the input and save it into a variable
+  # 3. do what the user has asked
+  # 4. repeat from step 1
+end
+
 def print_header
   puts "The students of Villains Academy"
   puts "-------------"
@@ -27,7 +34,6 @@ def print(students)
     puts  "#{index + 1}. #{student[:name]} (#{student[:cohort]} cohort)"
   end
 end
-
 
 def print_footer(names)
   puts "Overall, we have #{names.count} great students"
